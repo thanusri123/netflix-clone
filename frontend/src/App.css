@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   padding: 20px;
@@ -25,80 +14,17 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Custom scrollbar styles */
-.scrollbar-hide {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
-}
-
-.scrollbar-hide::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
-}
-
-/* Line clamp utility */
-.line-clamp-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* Smooth transitions */
-* {
-  transition: all 0.2s ease-in-out;
-}
-
-/* Netflix-style focus outlines */
 button:focus,
 input:focus {
   outline: 2px solid #e50914;
   outline-offset: 2px;
 }
 
-/* Loading animation */
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-}
-
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-/* Hover effects */
 .hover-scale {
   transition: transform 0.3s ease;
 }
-
 .hover-scale:hover {
   transform: scale(1.05);
-}
-
-/* Netflix red color variables */
-:root {
-  --netflix-red: #e50914;
-  --netflix-dark-red: #b20710;
-  --netflix-black: #000000;
-  --netflix-dark-gray: #141414;
-  --netflix-gray: #333333;
-  --netflix-light-gray: #757575;
 }
 
 /* Background gradients */
