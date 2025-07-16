@@ -1,6 +1,6 @@
 # 🎬 Netflix Clone (UI Showcase)
 
-🚀 **Live Demo**: [netflix-clone-thanu.vercel.app](https://netflix-clone-thanu.vercel.app)
+🚀 **Live Demo**: [netflix-clone-thanu.vercel.app](https://netflixclone-thanu.vercel.app)
 
 A full-featured Netflix clone built with modern web technologies.  
 This project highlights responsive UI design, authentication flow, and dynamic movie browsing.
